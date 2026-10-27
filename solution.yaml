@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: japanese-greeting-28f0e
+  version: 1.0.0
+  description: AI agent that greets users in Japanese with culturally appropriate expressions
+
+assets:
+  - ref: ./assets/japanese-greeting-agent/asset.yaml
